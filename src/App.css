@@ -19,15 +19,25 @@
 .btn-primary {
   background-color: #4CAF50; /* Green */
   color: white;
+  margin-right: 1rem;
 }
 
 .btn-primary:hover {
   background: none;
   color: #4CAF50;
   border: 1px solid #4CAF50;
+  transition: 0.5s ease-in-out;
+  
 }
 
 .btn-secondary {
-  background-color: #008CBA; /* Blue */
+  background-color: #788e96; /* Blue */
   color: white;
+}
+
+.btn-secondary:hover {
+  background: none;
+  color: #788e96;
+  border: 1px solid #788e96;
+  transition: 0.5s ease-in-out;
 }
