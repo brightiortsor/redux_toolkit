@@ -8,6 +8,7 @@ function Login() {
   return (
     <div>
       <button
+      className="btn btn-primary"
         onClick={() => {
           dispatch(
             login({ name: "Bright", age: 30, email: "iortsor@gmail.com" })
@@ -18,6 +19,7 @@ function Login() {
       </button>
 
       <button
+        className="btn btn-secondary"
         onClick={() => {
           dispatch(logout());
         }}
