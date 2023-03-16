@@ -5,13 +5,12 @@
 .btn {
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem 0;
   border-radius: 2rem;
   cursor: pointer;
 }
@@ -40,4 +39,27 @@
   color: #788e96;
   border: 1px solid #788e96;
   transition: 0.5s ease-in-out;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 2rem auto;
+  border: 1px solid #ccc;
+}
+
+.input {
+  width: 30%;
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-color {
+ margin-top: 1.5rem;
+ background: #60b963; 
 }

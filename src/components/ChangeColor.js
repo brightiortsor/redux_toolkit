@@ -7,14 +7,17 @@ function ChangeColor() {
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <div className="input-container">
       <input
+        className="input"
+        placeholder="Enter a color"
         type="text"
         onChange={(event) => {
           setColor(event.target.value);
         }}
       />
       <button
+        className="btn btn-color"
         onClick={() => {
           dispatch(changeColor(color));
         }}
